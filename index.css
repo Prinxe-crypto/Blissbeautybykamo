@@ -1,0 +1,24 @@
+/* Base styles for BlissBeautyByKamo */
+:root {
+    --theme-primary: #881337;
+    --theme-accent: #e11d48;
+    --theme-bg-main: #fafaf9;
+    --theme-bg-surface: #ffffff;
+    --theme-text-main: #1c1917;
+    --theme-text-muted: #78716c;
+    --theme-border: #ffe4e6;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[var(--theme-bg-main)] text-[var(--theme-text-main)];
+    }
+}
+
+.serif {
+    font-family: 'Playfair Display', serif;
+}

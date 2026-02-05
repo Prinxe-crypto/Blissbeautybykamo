@@ -1,0 +1,8 @@
+{
+  "name": "BlissBeautyByKamo",
+  "description": "Premium nail salon specializing in poly gel, acrylics, and custom nail art. Book your session with our AI style consultant.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
